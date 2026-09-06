@@ -59,6 +59,11 @@
             //}
             #endregion
 
+            #region Question10
+            //PrintBookInfo("Clean Code");
+            //PrintBookInfo("Clean Code", 500);
+            #endregion
+
         }
 
         #region Question03
@@ -116,6 +121,13 @@
                 price = 0;
                 return false;
             }
+        }
+        #endregion
+
+        #region Question10 
+        public static void PrintBookInfo(string title, int pages = 300)
+        {
+            Console.WriteLine($"title: {title}, pages: {pages}");
         }
         #endregion
     }
