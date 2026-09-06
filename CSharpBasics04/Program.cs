@@ -32,6 +32,13 @@
             //// I expect that pages will still store 400 and not 450 because it was passed by value
             #endregion
 
+            #region Question06
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            //// I expect prices[0] will store 20.5 because a copy of the array reference is passed and both references point to the same array
+            #endregion
+
         }
 
         #region Question03
@@ -52,6 +59,13 @@
         public static void AddBonusPages(int pages)
         {
             pages += 50;
+        }
+        #endregion
+
+        #region Question06
+        public static void ApplyDiscount(double[] prices)
+        {
+            prices[0] -= 5;
         }
         #endregion
     }
