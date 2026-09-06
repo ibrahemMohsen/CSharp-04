@@ -68,6 +68,10 @@
             //PrintBookInfo(pages: 500, title: "Clean Code");
             #endregion
 
+            #region Question12
+            //PrintAllTitles("Clean Code", "OOA&D Principles", "Design Patterns");
+            #endregion
+
         }
 
         #region Question03
@@ -132,6 +136,16 @@
         public static void PrintBookInfo(string title, int pages = 300)
         {
             Console.WriteLine($"title: {title}, pages: {pages}");
+        }
+        #endregion
+
+        #region Question12
+        public static void PrintAllTitles(params string[] titles)
+        {
+            foreach (string title in titles)
+            {
+                Console.WriteLine(title);
+            }
         }
         #endregion
     }
