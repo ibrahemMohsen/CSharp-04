@@ -9,7 +9,13 @@
             //Console.WriteLine(prices[1]);
             #endregion
 
-
+            #region Question02
+            //int[,] shelfCopies = {
+            //    { 3, 5 },
+            //    { 1, 4 }
+            //};
+            //Console.WriteLine(shelfCopies[1, 0]);
+            #endregion
         }
     }
 }
