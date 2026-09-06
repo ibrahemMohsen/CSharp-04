@@ -21,12 +21,23 @@
             //PrintWelcomeMessage();
             #endregion
 
+            #region Question04
+            //PrintBookTitle("Clean Code");
+            #endregion
+
         }
 
         #region Question03
         public static void PrintWelcomeMessage()
         {
             Console.WriteLine("Welcome to the Library!");
+        }
+        #endregion
+
+        #region Question04
+        public static void PrintBookTitle(string title)
+        {
+            Console.WriteLine($"Book title: {title}");
         }
         #endregion
     }
