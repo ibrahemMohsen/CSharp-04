@@ -25,6 +25,13 @@
             //PrintBookTitle("Clean Code");
             #endregion
 
+            #region Question05
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
+            //// I expect that pages will still store 400 and not 450 because it was passed by value
+            #endregion
+
         }
 
         #region Question03
@@ -38,6 +45,13 @@
         public static void PrintBookTitle(string title)
         {
             Console.WriteLine($"Book title: {title}");
+        }
+        #endregion
+
+        #region Question05
+        public static void AddBonusPages(int pages)
+        {
+            pages += 50;
         }
         #endregion
     }
