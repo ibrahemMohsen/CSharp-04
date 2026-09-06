@@ -39,6 +39,13 @@
             //// I expect prices[0] will store 20.5 because a copy of the array reference is passed and both references point to the same array
             #endregion
 
+            #region Question07
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
+            //// I expect that pages will store 450 instead of 400 since it was passed by reference and added 50 in the function
+            #endregion
+
         }
 
         #region Question03
@@ -66,6 +73,13 @@
         public static void ApplyDiscount(double[] prices)
         {
             prices[0] -= 5;
+        }
+        #endregion
+
+        #region Question07
+        public static void AddBonusPagesByRef(ref int pages)
+        {
+            pages += 50;
         }
         #endregion
     }
